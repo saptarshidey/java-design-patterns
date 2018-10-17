@@ -8,10 +8,10 @@ public class StrategyPatternDemo {
 		handsomeBoy.getCart().add(new Item("Vegetables", 200));
 		handsomeBoy.getCart().pay(new CreditCard());	// Pay using Credit Card
 
-		Customer hotGirl = new Customer("Jill");
-		hotGirl.getCart().add(new Item("Personal Care", 250));
-		hotGirl.getCart().add(new Item("Chocolates", 100));
-		hotGirl.getCart().pay(new Paypal());	// Pay using Paypal
+		Customer cuteGirl = new Customer("Jill");
+		cuteGirl.getCart().add(new Item("Personal Care", 250));
+		cuteGirl.getCart().add(new Item("Chocolates", 100));
+		cuteGirl.getCart().pay(new Paypal());	// Pay using Paypal
 	}
 
 }
